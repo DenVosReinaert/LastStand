@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 3df18eca16ef29a4fb3c7079c737d590
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7681191974614165835
+    second: garfieldShopKeep_0
+  - first:
+      213: -1954316290924702080
+    second: garfieldShopKeep_1
+  - first:
+      213: -3783901286974566266
+    second: garfieldShopKeep_2
+  - first:
+      213: -4510995204266691987
+    second: garfieldShopKeep_3
+  - first:
+      213: -3442165261588940933
+    second: garfieldShopKeep_4
+  - first:
+      213: -8226705353800559758
+    second: garfieldShopKeep_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +167,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: garfieldShopKeep_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 59
+        width: 397
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49657a7763199a60800000000000000
+      internalID: 7681191974614165835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garfieldShopKeep_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 59
+        width: 397
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0869ca410bfd0e4e0800000000000000
+      internalID: -1954316290924702080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garfieldShopKeep_2
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 59
+        width: 397
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680dcb4d3d1ec7bc0800000000000000
+      internalID: -3783901286974566266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garfieldShopKeep_3
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 59
+        width: 397
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62713213c9b561c0800000000000000
+      internalID: -4510995204266691987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garfieldShopKeep_4
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 59
+        width: 397
+        height: 537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b773dc49ee8fa30d0800000000000000
+      internalID: -3442165261588940933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garfieldShopKeep_5
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 59
+        width: 397
+        height: 537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273d9e2511fd4dd80800000000000000
+      internalID: -8226705353800559758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

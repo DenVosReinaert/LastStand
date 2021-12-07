@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: c296e8f73a6ff8f48accf56a269e546b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8828858146087524819
+    second: cartdirt_2
+  - first:
+      213: -2428520092771395650
+    second: cartdirt_3
+  - first:
+      213: -5203341823249521073
+    second: cartdirt_6
+  - first:
+      213: 2607005980290393818
+    second: cartdirt_8
+  - first:
+      213: -3139286161496124176
+    second: cartdirt_10
+  - first:
+      213: -5470023952240815799
+    second: cartdirt_13
+  - first:
+      213: -2025621147345911380
+    second: cartdirt_14
+  - first:
+      213: -7824434853028926166
+    second: cartdirt_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +173,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cartdirt_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2
+        width: 55
+        height: 15
+      alignment: 9
+      pivot: {x: 0.78, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d95cd1e4b7668a70800000000000000
+      internalID: 8828858146087524819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartdirt_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1
+        width: 50
+        height: 10
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7567ca7d92c4ed0800000000000000
+      internalID: -2428520092771395650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartdirt_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3
+        width: 62
+        height: 19
+      alignment: 9
+      pivot: {x: 0.78, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4667442e240ac7b0800000000000000
+      internalID: -5203341823249521073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartdirt_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2
+        width: 54
+        height: 10
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad627866022fd2420800000000000000
+      internalID: 2607005980290393818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartdirt_10
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1
+        width: 58
+        height: 15
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f459b76ed30f64d0800000000000000
+      internalID: -3139286161496124176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartdirt_13
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1
+        width: 60
+        height: 16
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941dec562329614b0800000000000000
+      internalID: -5470023952240815799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartdirt_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 39
+        height: 6
+      alignment: 9
+      pivot: {x: 0.75, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca18de67c4c83e3e0800000000000000
+      internalID: -2025621147345911380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartdirt_15
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1
+        width: 37
+        height: 5
+      alignment: 9
+      pivot: {x: 0.75, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d6601f4f50a6390800000000000000
+      internalID: -7824434853028926166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 7a12d39b77cb61f4ca3d22a11b4eeffb
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4736780841029230539
+    second: MrSpooks_Sheet_Left2_0
+  - first:
+      213: 7297877861630802077
+    second: MrSpooks_Sheet_Left2_1
+  - first:
+      213: -1500758462922484365
+    second: MrSpooks_Sheet_Left2_2
+  - first:
+      213: 858997806249185472
+    second: MrSpooks_Sheet_Left2_3
+  - first:
+      213: -7845859473508089566
+    second: MrSpooks_Sheet_Left2_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +164,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MrSpooks_Sheet_Left2_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 48
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf5c60141d6cb140800000000000000
+      internalID: 4736780841029230539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpooks_Sheet_Left2_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 50
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98f0b4df35474560800000000000000
+      internalID: 7297877861630802077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpooks_Sheet_Left2_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 50
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37518db112c3c2be0800000000000000
+      internalID: -1500758462922484365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpooks_Sheet_Left2_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 50
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0925024f5cbeb00800000000000000
+      internalID: 858997806249185472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpooks_Sheet_Left2_4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 48
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221cae3c068ed1390800000000000000
+      internalID: -7845859473508089566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

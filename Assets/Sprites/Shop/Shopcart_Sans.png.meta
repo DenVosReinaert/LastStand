@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 29dac17107f88b5448ece9e7e6a3be18
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8323450493574871577
+    second: Shopcart_Sans_0
+  - first:
+      213: -6971116076677594510
+    second: Shopcart_Sans_1
+  - first:
+      213: -351633323994875562
+    second: Shopcart_Sans_2
+  - first:
+      213: 4463103626184105731
+    second: Shopcart_Sans_3
+  - first:
+      213: -4597869050911113352
+    second: Shopcart_Sans_4
+  - first:
+      213: 896888564500498298
+    second: Shopcart_Sans_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +167,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shopcart_Sans_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 257
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e58be820e92d7c80800000000000000
+      internalID: -8323450493574871577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shopcart_Sans_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2
+        width: 258
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2720e91ecde914f90800000000000000
+      internalID: -6971116076677594510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shopcart_Sans_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 3
+        width: 261
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6597818da5fbe1bf0800000000000000
+      internalID: -351633323994875562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shopcart_Sans_3
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 2
+        width: 258
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f167af91120fd30800000000000000
+      internalID: 4463103626184105731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shopcart_Sans_4
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2
+        width: 258
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f3ea075761130c0800000000000000
+      internalID: -4597869050911113352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shopcart_Sans_5
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 4
+        width: 259
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a778922c563627c00800000000000000
+      internalID: 896888564500498298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

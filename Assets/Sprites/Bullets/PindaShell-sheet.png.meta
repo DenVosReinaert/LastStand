@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 939828b4932e6aa4195e108d8eac55e5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5873985614871619859
+    second: PindaShell-sheet_0
+  - first:
+      213: -1583456021085655442
+    second: PindaShell-sheet_1
+  - first:
+      213: 582805171649272699
+    second: PindaShell-sheet_2
+  - first:
+      213: 906094423135688333
+    second: PindaShell-sheet_3
+  - first:
+      213: -6387720564947597888
+    second: PindaShell-sheet_4
+  - first:
+      213: -8139645456751556321
+    second: PindaShell-sheet_5
+  - first:
+      213: 4976688521216671552
+    second: PindaShell-sheet_6
+  - first:
+      213: 4272023368456881222
+    second: PindaShell-sheet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +173,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PindaShell-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de692d974396b7ea0800000000000000
+      internalID: -5873985614871619859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PindaShell-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e6cb9632f660ae0800000000000000
+      internalID: -1583456021085655442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PindaShell-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 5
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b5a6d373a861800800000000000000
+      internalID: 582805171649272699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PindaShell-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8617ffb318139c00800000000000000
+      internalID: 906094423135688333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PindaShell-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c547d16df14a57a0800000000000000
+      internalID: -6387720564947597888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PindaShell-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1983b0359b2a0f80800000000000000
+      internalID: -8139645456751556321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PindaShell-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 4
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f32e8a7dfb01540800000000000000
+      internalID: 4976688521216671552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PindaShell-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6444a059e96494b30800000000000000
+      internalID: 4272023368456881222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: cf36b4c281407c147869827e7d6b2227
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5266440222161037873
+    second: Grunt-Running-Away_0
+  - first:
+      213: -3986191579920285434
+    second: Grunt-Running-Away_1
+  - first:
+      213: 7625268102821008213
+    second: Grunt-Running-Away_2
+  - first:
+      213: 9073052715825509474
+    second: Grunt-Running-Away_3
+  - first:
+      213: 6020201714732692880
+    second: Grunt-Running-Away_4
+  - first:
+      213: -7897202704047239582
+    second: Grunt-Running-Away_5
+  - first:
+      213: -4132230936978114245
+    second: Grunt-Running-Away_6
+  - first:
+      213: 1533670503625507205
+    second: Grunt-Running-Away_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +173,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Grunt-Running-Away_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aecb0ba77261940800000000000000
+      internalID: 5266440222161037873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Away_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601c238b0e33ea8c0800000000000000
+      internalID: -3986191579920285434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Away_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55353c960f462d960800000000000000
+      internalID: 7625268102821008213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Away_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2643c2bbf55f9ed70800000000000000
+      internalID: 9073052715825509474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Away_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095f6da209d0c8350800000000000000
+      internalID: 6020201714732692880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Away_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e820a5bff776290800000000000000
+      internalID: -7897202704047239582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Away_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b393a873bdd57a6c0800000000000000
+      internalID: -4132230936978114245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Away_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581c7138231b84510800000000000000
+      internalID: 1533670503625507205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: cf1f2b9caed2b2e45a1c198f50028571
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9046183363409417859
+    second: shopcart_0
+  - first:
+      213: 7757029513651627929
+    second: shopcart_1
+  - first:
+      213: 2390705818799970923
+    second: shopcart_2
+  - first:
+      213: 2390999329419746172
+    second: shopcart_3
+  - first:
+      213: 4797583004806045846
+    second: shopcart_4
+  - first:
+      213: 1671379374627943562
+    second: shopcart_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +167,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: shopcart_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 257
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79eee2e820857280800000000000000
+      internalID: -9046183363409417859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopcart_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2
+        width: 258
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9972d618e3186ab60800000000000000
+      internalID: 7757029513651627929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopcart_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 3
+        width: 261
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a1804964e7d2120800000000000000
+      internalID: 2390705818799970923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopcart_3
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 2
+        width: 258
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bd248d8398e2120800000000000000
+      internalID: 2390999329419746172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopcart_4
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2
+        width: 258
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6906aedf250749240800000000000000
+      internalID: 4797583004806045846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopcart_5
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 4
+        width: 259
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84fc959faee13710800000000000000
+      internalID: 1671379374627943562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

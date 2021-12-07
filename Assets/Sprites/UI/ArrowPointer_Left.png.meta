@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 0f0640d31a3f4b846a890fe6abad5d76
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4556001927715724356
+    second: ArrowPointer_Left_0
+  - first:
+      213: 2862578414077453374
+    second: ArrowPointer_Left_1
+  - first:
+      213: -6407430621750185539
+    second: ArrowPointer_Left_2
+  - first:
+      213: -3013593105484828728
+    second: ArrowPointer_Left_3
+  - first:
+      213: -7536612569350636359
+    second: ArrowPointer_Left_4
+  - first:
+      213: -5286343655392369872
+    second: ArrowPointer_Left_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +167,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ArrowPointer_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c9d715d9b2a3f30800000000000000
+      internalID: 4556001927715724356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowPointer_Left_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34a9c8a6ebe9b720800000000000000
+      internalID: 2862578414077453374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowPointer_Left_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1be9b2ccb3417a0800000000000000
+      internalID: -6407430621750185539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowPointer_Left_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfa20a89019d26d0800000000000000
+      internalID: -3013593105484828728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowPointer_Left_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc7c128cc2986790800000000000000
+      internalID: -7536612569350636359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowPointer_Left_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033a2b3247223a6b0800000000000000
+      internalID: -5286343655392369872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

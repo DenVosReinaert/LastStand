@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 0583b4c0963c1944c99c8f3287fbec7a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8094314796857564774
+    second: Grunt-Running-Forward_0
+  - first:
+      213: -4283176210582392995
+    second: Grunt-Running-Forward_1
+  - first:
+      213: 10938569485275766
+    second: Grunt-Running-Forward_2
+  - first:
+      213: 3262502690754405454
+    second: Grunt-Running-Forward_3
+  - first:
+      213: -6190781174631644932
+    second: Grunt-Running-Forward_4
+  - first:
+      213: -9029006074173263712
+    second: Grunt-Running-Forward_5
+  - first:
+      213: -4118955975886084453
+    second: Grunt-Running-Forward_6
+  - first:
+      213: 8316819771929536603
+    second: Grunt-Running-Forward_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +173,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Grunt-Running-Forward_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91ed19e3973baf80800000000000000
+      internalID: -8094314796857564774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Forward_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f25d10ee91f84c0800000000000000
+      internalID: -4283176210582392995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Forward_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672558c229cd62000800000000000000
+      internalID: 10938569485275766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Forward_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e442c2969ecb64d20800000000000000
+      internalID: 3262502690754405454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Forward_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0c7e3625de51aa0800000000000000
+      internalID: -6190781174631644932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Forward_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0fe0230d682b280800000000000000
+      internalID: -9029006074173263712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Forward_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9666d3fc5786d6c0800000000000000
+      internalID: -4118955975886084453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grunt-Running-Forward_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b582ec6a4874b6370800000000000000
+      internalID: 8316819771929536603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 1ff2bf871ddb8dd4995be8b9ec542c7d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5701203022888627199
+    second: Speedster_Sheet_Back_0
+  - first:
+      213: 6072456099756534651
+    second: Speedster_Sheet_Back_1
+  - first:
+      213: 5102375508457025019
+    second: Speedster_Sheet_Back_2
+  - first:
+      213: -7009048935910728332
+    second: Speedster_Sheet_Back_3
+  - first:
+      213: 2184991652791795233
+    second: Speedster_Sheet_Back_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +164,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Speedster_Sheet_Back_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10417549e0241e0b0800000000000000
+      internalID: -5701203022888627199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speedster_Sheet_Back_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 25
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b642446a2b54450800000000000000
+      internalID: 6072456099756534651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speedster_Sheet_Back_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 24
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdeb3ccd774fc640800000000000000
+      internalID: 5102375508457025019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speedster_Sheet_Back_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 25
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d16b9d02bdabe90800000000000000
+      internalID: -7009048935910728332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speedster_Sheet_Back_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e39d5e456a25e10800000000000000
+      internalID: 2184991652791795233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

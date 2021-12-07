@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 28bcd732287f49b4b8474df0b26b572f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6863885683752903001
+    second: FlowerPatch_0
+  - first:
+      213: 2381229191887205558
+    second: FlowerPatch_1
+  - first:
+      213: 2528709296014346177
+    second: FlowerPatch_2
+  - first:
+      213: -5025052270926689057
+    second: FlowerPatch_3
+  - first:
+      213: -3815315235081194193
+    second: FlowerPatch_4
+  - first:
+      213: -2082940835011475163
+    second: FlowerPatch_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +167,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FlowerPatch_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 398
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9512bf6b9ab614f50800000000000000
+      internalID: 6863885683752903001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerPatch_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1
+        width: 400
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b43a3f6553db0120800000000000000
+      internalID: 2381229191887205558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerPatch_2
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1
+        width: 398
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7c92105b7c71320800000000000000
+      internalID: 2528709296014346177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerPatch_3
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1
+        width: 398
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc05ad559d634ab0800000000000000
+      internalID: -5025052270926689057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerPatch_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1
+        width: 400
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2579d212074d0bc0800000000000000
+      internalID: -3815315235081194193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerPatch_5
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1
+        width: 398
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5294cf0b858e713e0800000000000000
+      internalID: -2082940835011475163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

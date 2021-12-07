@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 377d455f16892e64b877029e04dc26c3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3681135951759831281
+    second: SansField_0
+  - first:
+      213: 3254294091772338685
+    second: SansField_1
+  - first:
+      213: -5006391267997324042
+    second: SansField_2
+  - first:
+      213: 4547180962587479200
+    second: SansField_3
+  - first:
+      213: 1121028714590456550
+    second: SansField_4
+  - first:
+      213: 8866297640049205564
+    second: SansField_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,7 +167,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SansField_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 59
+        width: 397
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f8f69fa5af9ecc0800000000000000
+      internalID: -3681135951759831281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SansField_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 59
+        width: 397
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df12eb60c33992d20800000000000000
+      internalID: 3254294091772338685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SansField_2
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 59
+        width: 397
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fce660baa9b58ab0800000000000000
+      internalID: -5006391267997324042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SansField_3
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 59
+        width: 397
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac02745ef4da1f30800000000000000
+      internalID: 4547180962587479200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SansField_4
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 59
+        width: 397
+        height: 537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea4d2c2da1be8f00800000000000000
+      internalID: 1121028714590456550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SansField_5
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 59
+        width: 397
+        height: 537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31640c5aba6b0b70800000000000000
+      internalID: 8866297640049205564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
