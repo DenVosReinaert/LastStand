@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 4a13ab816830d8447b3395230a0397d8
+guid: 33e98f7b47020704eb3a066c37ba9e2a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -505231884846148532
-    second: Grunt-Running-Left_0
+      213: 1895414594624274424
+    second: Speedster_Sheet_Right_0
   - first:
-      213: 8730732585444930082
-    second: Grunt-Running-Left_1
+      213: -8834329091198970534
+    second: Speedster_Sheet_Right_1
   - first:
-      213: 6569083334099308466
-    second: Grunt-Running-Left_2
+      213: -4635455902849771103
+    second: Speedster_Sheet_Right_2
   - first:
-      213: 5248991205675494052
-    second: Grunt-Running-Left_3
+      213: 5378451009088841944
+    second: Speedster_Sheet_Right_3
   - first:
-      213: 1852606219110816199
-    second: Grunt-Running-Left_4
+      213: -8446648552777733894
+    second: Speedster_Sheet_Right_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -166,34 +166,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grunt-Running-Left_0
+      name: Speedster_Sheet_Right_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3
-        width: 17
-        height: 36
-      alignment: 9
-      pivot: {x: 0.56, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c445b8e074e0df8f0800000000000000
-      internalID: -505231884846148532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grunt-Running-Left_1
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 3
-        width: 20
-        height: 36
+        x: 1
+        y: 0
+        width: 24
+        height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,71 +180,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2227f50770bc92970800000000000000
-      internalID: 8730732585444930082
+      spriteID: 8ffbbae088ddd4a10800000000000000
+      internalID: 1895414594624274424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grunt-Running-Left_2
+      name: Speedster_Sheet_Right_1
       rect:
         serializedVersion: 2
-        x: 61
-        y: 3
-        width: 22
-        height: 36
-      alignment: 9
-      pivot: {x: 0.47, y: 0}
+        x: 29
+        y: 0
+        width: 25
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf8de4ec721a2b50800000000000000
-      internalID: 6569083334099308466
+      spriteID: a559f227f78266580800000000000000
+      internalID: -8834329091198970534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grunt-Running-Left_3
+      name: Speedster_Sheet_Right_2
       rect:
         serializedVersion: 2
-        x: 89
-        y: 3
-        width: 23
-        height: 36
-      alignment: 9
-      pivot: {x: 0.44, y: 0}
+        x: 57
+        y: 0
+        width: 25
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aaef63f0b928d840800000000000000
-      internalID: 5248991205675494052
+      spriteID: 1a9d6a28a6d8bafb0800000000000000
+      internalID: -4635455902849771103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grunt-Running-Left_4
+      name: Speedster_Sheet_Right_3
       rect:
         serializedVersion: 2
-        x: 117
-        y: 3
-        width: 23
-        height: 36
-      alignment: 9
-      pivot: {x: 0.41, y: 0}
+        x: 85
+        y: 0
+        width: 25
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c997ce6a87c5b910800000000000000
-      internalID: 1852606219110816199
+      spriteID: 8d8e49e42b814aa40800000000000000
+      internalID: 5378451009088841944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speedster_Sheet_Right_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8ad1db4e977ca80800000000000000
+      internalID: -8446648552777733894
       vertices: []
       indices: 
       edges: []

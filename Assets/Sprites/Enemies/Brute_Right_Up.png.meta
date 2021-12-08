@@ -1,22 +1,34 @@
 fileFormatVersion: 2
-guid: 4a13ab816830d8447b3395230a0397d8
+guid: 409638600a7df704ea4f321d369019a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -505231884846148532
-    second: Grunt-Running-Left_0
+      213: -5962447056163414159
+    second: Brute_Right_Up_0
   - first:
-      213: 8730732585444930082
-    second: Grunt-Running-Left_1
+      213: 2504236035928330238
+    second: Brute_Right_Up_1
   - first:
-      213: 6569083334099308466
-    second: Grunt-Running-Left_2
+      213: -1452341421022572775
+    second: Brute_Right_Up_2
   - first:
-      213: 5248991205675494052
-    second: Grunt-Running-Left_3
+      213: 13541603943471468
+    second: Brute_Right_Up_3
   - first:
-      213: 1852606219110816199
-    second: Grunt-Running-Left_4
+      213: -1393007136675084748
+    second: Brute_Right_Up_4
+  - first:
+      213: 6405737052107699156
+    second: Brute_Right_Up_5
+  - first:
+      213: 4715085509603641299
+    second: Brute_Right_Up_6
+  - first:
+      213: 8311496404934874184
+    second: Brute_Right_Up_7
+  - first:
+      213: -7309624932701511558
+    second: Brute_Right_Up_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -166,34 +178,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grunt-Running-Left_0
+      name: Brute_Right_Up_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3
-        width: 17
-        height: 36
-      alignment: 9
-      pivot: {x: 0.56, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c445b8e074e0df8f0800000000000000
-      internalID: -505231884846148532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grunt-Running-Left_1
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 3
-        width: 20
-        height: 36
+        x: 0
+        y: 0
+        width: 35
+        height: 42
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,71 +192,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2227f50770bc92970800000000000000
-      internalID: 8730732585444930082
+      spriteID: 17f5e492ef1214da0800000000000000
+      internalID: -5962447056163414159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grunt-Running-Left_2
+      name: Brute_Right_Up_1
       rect:
         serializedVersion: 2
-        x: 61
-        y: 3
-        width: 22
-        height: 36
-      alignment: 9
-      pivot: {x: 0.47, y: 0}
+        x: 35
+        y: 0
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf8de4ec721a2b50800000000000000
-      internalID: 6569083334099308466
+      spriteID: eff8d3b1865d0c220800000000000000
+      internalID: 2504236035928330238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grunt-Running-Left_3
+      name: Brute_Right_Up_2
       rect:
         serializedVersion: 2
-        x: 89
-        y: 3
-        width: 23
-        height: 36
-      alignment: 9
-      pivot: {x: 0.44, y: 0}
+        x: 70
+        y: 0
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aaef63f0b928d840800000000000000
-      internalID: 5248991205675494052
+      spriteID: 91f0d532c2f38dbe0800000000000000
+      internalID: -1452341421022572775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grunt-Running-Left_4
+      name: Brute_Right_Up_3
       rect:
         serializedVersion: 2
-        x: 117
-        y: 3
-        width: 23
-        height: 36
-      alignment: 9
-      pivot: {x: 0.41, y: 0}
+        x: 105
+        y: 0
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c997ce6a87c5b910800000000000000
-      internalID: 1852606219110816199
+      spriteID: c695dbc540c103000800000000000000
+      internalID: 13541603943471468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brute_Right_Up_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436c5e0c36b0bace0800000000000000
+      internalID: -1393007136675084748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brute_Right_Up_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3ff6be8efb5e850800000000000000
+      internalID: 6405737052107699156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brute_Right_Up_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d744851a495f6140800000000000000
+      internalID: 4715085509603641299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brute_Right_Up_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445410b1fd585370800000000000000
+      internalID: 8311496404934874184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brute_Right_Up_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70ecfc0adefe8a90800000000000000
+      internalID: -7309624932701511558
       vertices: []
       indices: 
       edges: []

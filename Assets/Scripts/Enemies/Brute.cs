@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boss : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
+public class Brute : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
 {
     public float speed { get; set; }
     public float speed_;
@@ -65,7 +65,7 @@ public class Boss : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if(collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<IKillable>().Damage(damage);
 
