@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Health and Shields
+    uniqueID: 1338599605
+    locked: 0

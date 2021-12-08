@@ -121,8 +121,9 @@ MonoBehaviour:
   speed_: 2
   anim: {fileID: 6696114729658258139}
   rb: {fileID: 6696114729090451787}
-  health_: 100
-  shields: 5
+  health_: 5
+  shields: 2
+  ui: {fileID: 0}
 --- !u!1 &6696114729658258133
 GameObject:
   m_ObjectHideFlags: 0
