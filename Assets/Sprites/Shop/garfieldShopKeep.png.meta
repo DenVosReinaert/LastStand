@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -304,6 +305,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      garfieldShopKeep_2: -3783901286974566266
+      garfieldShopKeep_5: -8226705353800559758
+      garfieldShopKeep_4: -3442165261588940933
+      garfieldShopKeep_1: -1954316290924702080
+      garfieldShopKeep_3: -4510995204266691987
+      garfieldShopKeep_0: 7681191974614165835
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

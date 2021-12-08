@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PindaShell-sheet_7: 4272023368456881222
+      PindaShell-sheet_6: 4976688521216671552
+      PindaShell-sheet_4: -6387720564947597888
+      PindaShell-sheet_5: -8139645456751556321
+      PindaShell-sheet_0: -5873985614871619859
+      PindaShell-sheet_3: 906094423135688333
+      PindaShell-sheet_2: 582805171649272699
+      PindaShell-sheet_1: -1583456021085655442
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

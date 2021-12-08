@@ -123,6 +123,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -952,6 +953,40 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Heavy_Left_7: -5030350611845239124
+      Heavy_Left_15: -2079212768784276745
+      Heavy_Left_28: 2102549619102947337
+      Heavy_Left_3: 8854961385871190942
+      Heavy_Left_20: 4141975594337897404
+      Heavy_Left_23: -3835336278523665533
+      Heavy_Left_24: -2092358784104098808
+      Heavy_Left_30: 759275508799993405
+      Heavy_Left_31: 5686709024466646294
+      Heavy_Left_6: 8061907912840055764
+      Heavy_Left_25: -7671722848311500837
+      Heavy_Left_11: -1107916637664561110
+      Heavy_Left_32: 8594951958978065680
+      Heavy_Left_29: 1651200749099936275
+      Heavy_Left_0: -169127746023281103
+      Heavy_Left_5: -1616747796886730143
+      Heavy_Left_21: -4200715385111951297
+      Heavy_Left_10: 1535374471828398595
+      Heavy_Left_16: 4710832182939260191
+      Heavy_Left_13: -5891546883896294174
+      Heavy_Left_14: -6399248037503301452
+      Heavy_Left_26: 2290797646381823242
+      Heavy_Left_4: 2979322580133600310
+      Heavy_Left_18: -7703366200548124712
+      Heavy_Left_22: 4969781143409467116
+      Heavy_Left_27: 6988175632684527636
+      Heavy_Left_1: -2606603897926181856
+      Heavy_Left_8: -2676825172348614701
+      Heavy_Left_9: -263674664552994151
+      Heavy_Left_17: -3813109644264913598
+      Heavy_Left_19: 3419412742233790280
+      Heavy_Left_2: -5836645040883696448
+      Heavy_Left_12: 1232238178984626753
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
