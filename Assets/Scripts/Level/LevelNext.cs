@@ -25,5 +25,7 @@ public class LevelNext : MonoBehaviour
 
             Debug.Log("Player Has Entered an Arrow");
         }
+
+        Debug.Log("STOP TOUCHING ME");
     }
 }

@@ -36,19 +36,19 @@ public class GameManager : MonoBehaviour
         switch(dirTrigger)
         {
             case ("Level Up"):
-                playerRb.position = lvlNextArrowsList[0].transform.position;
+                playerRb.MovePosition(lvlNextArrowsList[1].transform.position);
                 break;
 
             case ("Level Down"):
-                playerRb.position = lvlNextArrowsList[1].transform.position;
+                playerRb.MovePosition(lvlNextArrowsList[0].transform.position);
                 break;
 
             case ("Level Left"):
-                playerRb.position = lvlNextArrowsList[2].transform.position;
+                playerRb.MovePosition(lvlNextArrowsList[3].transform.position);
                 break;
 
             case ("Level Right"):
-                playerRb.position = lvlNextArrowsList[3].transform.position;
+                playerRb.MovePosition(lvlNextArrowsList[2].transform.position);
                 break;
 
         }
