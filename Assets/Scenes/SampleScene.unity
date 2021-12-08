@@ -211,37 +211,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6696114729090451785, guid: 2448d9125421fed48a16edcc324e884e, type: 3}
   m_PrefabInstance: {fileID: 6696114729376253506}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &840318204 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4037031591369344195, guid: 1d48598dc1b637d4fbd89f6de8b51485, type: 3}
-  m_PrefabInstance: {fileID: 4037031591603583039}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &840318205
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840318204}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.195}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.25, y: 0.39}
-    newSize: {x: 0.25, y: 0.39}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.39}
-  m_EdgeRadius: 0
 --- !u!1001 &731666756751830722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -301,6 +270,18 @@ PrefabInstance:
       propertyPath: target_
       value: 
       objectReference: {fileID: 822677259}
+    - target: {fileID: 1556930413003462903, guid: 190053f50ba23eb4db645dab7f7cfab3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556930413003462903, guid: 190053f50ba23eb4db645dab7f7cfab3, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.225
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556930413003462903, guid: 190053f50ba23eb4db645dab7f7cfab3, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.45
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190053f50ba23eb4db645dab7f7cfab3, type: 3}
 --- !u!1001 &1424318702730650968
