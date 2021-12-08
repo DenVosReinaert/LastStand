@@ -7,5 +7,4 @@ public interface IEnemy
     public void Chase();
     public Transform target { get; set; }
     public Vector2 direction { get; set; }
-    float speed { get; set; }
 }
