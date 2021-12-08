@@ -41,9 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Health and Shields
-    uniqueID: 1338599605
+  - name: Ground
+    uniqueID: 898524655
     locked: 0
   - name: Entities
     uniqueID: 2053619919
+    locked: 0
+  - name: Walls
+    uniqueID: 1519927869
+    locked: 0
+  - name: Health and Shields
+    uniqueID: 1338599605
     locked: 0

@@ -175,10 +175,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 46
+        width: 49
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: ArrowPointer_Left_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 49
         y: 0
-        width: 46
+        width: 49
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: ArrowPointer_Left_2
       rect:
         serializedVersion: 2
-        x: 100
+        x: 98
         y: 0
-        width: 46
+        width: 49
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: ArrowPointer_Left_3
       rect:
         serializedVersion: 2
-        x: 150
+        x: 147
         y: 0
-        width: 46
+        width: 49
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: ArrowPointer_Left_4
       rect:
         serializedVersion: 2
-        x: 198
+        x: 196
         y: 0
-        width: 46
+        width: 49
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: ArrowPointer_Left_5
       rect:
         serializedVersion: 2
-        x: 246
+        x: 245
         y: 0
-        width: 46
+        width: 49
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
