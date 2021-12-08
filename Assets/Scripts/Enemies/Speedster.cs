@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boss : MonoBehaviour, IDirectioning, IEnemy, IMobile
+public class Speedster : MonoBehaviour, IDirectioning, IEnemy, IMobile
 {
     public float speed { get; set; }
     public float speed_;
