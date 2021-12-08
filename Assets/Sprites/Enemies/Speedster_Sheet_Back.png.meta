@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Speedster_Sheet_Back_4: 2184991652791795233
+      Speedster_Sheet_Back_2: 5102375508457025019
+      Speedster_Sheet_Back_0: -5701203022888627199
+      Speedster_Sheet_Back_1: 6072456099756534651
+      Speedster_Sheet_Back_3: -7009048935910728332
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

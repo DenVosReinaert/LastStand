@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      MrSpooks_Sheet_Back2_1: -7709649883578248809
+      MrSpooks_Sheet_Back2_2: -7590924994841713272
+      MrSpooks_Sheet_Back2_4: 3073309440024690131
+      MrSpooks_Sheet_Back2_3: -5224421594455888000
+      MrSpooks_Sheet_Back2_0: -182111729786272760
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -132,6 +132,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1024,6 +1025,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Turret_18: 2569577779806641645
+      Turret_24: -8324963768176326974
+      Turret_27: -2750806874749364224
+      Turret_28: -349862081064290755
+      Turret_23: -8758262924248102188
+      Turret_30: -8936599244289349187
+      Turret_14: -9058092337224206916
+      Turret_9: -7205194000228689161
+      Turret_7: -3269291402851145548
+      Turret_0: -539579915749326718
+      Turret_16: -6366378681856479452
+      Turret_26: -6558909020909583904
+      Turret_22: 2064536956096237301
+      Turret_8: -8005383968427184604
+      Turret_17: -4890679048308439224
+      Turret_31: 8115806283107001896
+      Turret_20: 7810384051411464485
+      Turret_2: 8140174274467912094
+      Turret_13: 7403291507151931068
+      Turret_5: -5366586685371185626
+      Turret_21: 9085429654546749946
+      Turret_1: 8195469170884960449
+      Turret_11: -1992835061450407839
+      Turret_29: -6981181405228179632
+      Turret_10: 279733291693020329
+      Turret_19: 5508015267943989739
+      Turret_34: -2785991699032382114
+      Turret_15: -4140826396210974421
+      Turret_6: -1840150153398722976
+      Turret_4: 6444530628601585338
+      Turret_25: 620772277386935547
+      Turret_3: 3645864503005893697
+      Turret_32: -6002400840054440277
+      Turret_33: -7689720135788492704
+      Turret_35: -2582517799178247513
+      Turret_12: 4270767205762876945
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
