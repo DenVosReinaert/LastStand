@@ -70,6 +70,8 @@ MonoBehaviour:
   anim: {fileID: 1424318701638169437}
   rb: {fileID: 1424318701472670909}
   target_: {fileID: 0}
+  health_: 2
+  damage_: 1
 --- !u!1 &1424318701638169436
 GameObject:
   m_ObjectHideFlags: 0

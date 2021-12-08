@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Heavy : MonoBehaviour, IDirectioning, IEnemy, IMobile
+public class Heavy : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
 {
     public float speed { get; set; }
     public float speed_;
@@ -15,12 +15,21 @@ public class Heavy : MonoBehaviour, IDirectioning, IEnemy, IMobile
 
     public Vector2 direction { get; set; }
 
+    public int health { get; set; }
+    public int health_;
+
+    public int damage { get; set; }
+    public int damage_;
+
     void Update()
     {
         SetContractFields();
 
         Chase();
         PositionAnimation();
+
+        if (health <= 0)
+            Die();
     }
 
     public void PositionAnimation()
@@ -40,5 +49,26 @@ public class Heavy : MonoBehaviour, IDirectioning, IEnemy, IMobile
     {
         target = target_;
         speed = speed_;
+        health = health_;
+        damage = damage_;
+    }
+
+    public void Die()
+    {
+        this.gameObject.SetActive(false);
+    }
+
+    public void Damage(int incomingDamage)
+    {
+        health -= incomingDamage;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<IKillable>().Damage(damage);
+
+            Die();
+        }
     }
 }

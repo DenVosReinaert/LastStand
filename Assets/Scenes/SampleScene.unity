@@ -530,10 +530,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4037031591133355834, guid: 1d48598dc1b637d4fbd89f6de8b51485, type: 3}
-      propertyPath: speed_
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4037031591133355834, guid: 1d48598dc1b637d4fbd89f6de8b51485, type: 3}
       propertyPath: target_
       value: 
       objectReference: {fileID: 822677259}
@@ -598,6 +594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6696114729090451786, guid: 2448d9125421fed48a16edcc324e884e, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6696114729090451787, guid: 2448d9125421fed48a16edcc324e884e, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -605,6 +605,14 @@ PrefabInstance:
     - target: {fileID: 6696114729090451787, guid: 2448d9125421fed48a16edcc324e884e, type: 3}
       propertyPath: m_Interpolate
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696114729090451790, guid: 2448d9125421fed48a16edcc324e884e, type: 3}
+      propertyPath: health_
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696114729090451790, guid: 2448d9125421fed48a16edcc324e884e, type: 3}
+      propertyPath: shields
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2448d9125421fed48a16edcc324e884e, type: 3}
@@ -702,6 +710,10 @@ PrefabInstance:
     - target: {fileID: 8181967397599388379, guid: 63c39db3bfe5487448eedc3c4d4e27f2, type: 3}
       propertyPath: m_Name
       value: Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181967397599388382, guid: 63c39db3bfe5487448eedc3c4d4e27f2, type: 3}
+      propertyPath: health_
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8181967397599388382, guid: 63c39db3bfe5487448eedc3c4d4e27f2, type: 3}
       propertyPath: target_

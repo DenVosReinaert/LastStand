@@ -66,10 +66,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810500024989ed7418b93faffa78d32d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed_: 1.75
+  speed_: 1.8
   anim: {fileID: 4037031591369344194}
   rb: {fileID: 4037031591133355833}
   target_: {fileID: 0}
+  health_: 1
+  damage_: 1
 --- !u!1 &4037031591369344195
 GameObject:
   m_ObjectHideFlags: 0
