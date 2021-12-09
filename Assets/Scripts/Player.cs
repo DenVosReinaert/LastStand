@@ -12,9 +12,13 @@ public class Player : MonoBehaviour, IDirectioning, IMobile, IKillable
     public int health_;
     public int shields;
 
+    public UI ui;
+
     void Start()
     {
+        SetContractFields();
 
+        ui.AdjustHealthBar(health, shields);
     }
 
     // Update is called once per frame
@@ -60,5 +64,7 @@ public class Player : MonoBehaviour, IDirectioning, IMobile, IKillable
 
         health_ = health;
         Debug.Log("Health: " + health + " Shields: " + shields);
+
+        ui.AdjustHealthBar(health, shields);
     }
 }

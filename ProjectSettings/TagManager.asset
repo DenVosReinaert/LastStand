@@ -8,11 +8,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
+  - Enemies
+  - PlayerBlock
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 898524655
+    locked: 0
+  - name: Entities
+    uniqueID: 2053619919
+    locked: 0
+  - name: Walls
+    uniqueID: 1519927869
+    locked: 0
+  - name: Health and Shields
+    uniqueID: 1338599605
     locked: 0
