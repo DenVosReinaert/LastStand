@@ -21,6 +21,9 @@ public class Boss : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
     public int damage { get; set; }
     public int damage_;
 
+    public WaveManager waveManager { get; set; }
+    public WaveManager waveManager_;
+
     void Update()
     {
         SetContractFields();
@@ -51,11 +54,13 @@ public class Boss : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
         speed = speed_;
         health = health_;
         damage = damage_;
+        waveManager = waveManager_;
     }
 
     public void Die()
     {
-        this.gameObject.SetActive(false);
+        waveManager.totalSpawnCount--;
+        Destroy(this.gameObject);
     }
 
     public void Damage(int incomingDamage)

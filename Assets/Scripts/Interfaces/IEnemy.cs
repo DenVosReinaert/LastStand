@@ -8,4 +8,6 @@ public interface IEnemy
     public Transform target { get; set; }
     public Vector2 direction { get; set; }
     public int damage { get; set; }
+
+    public WaveManager waveManager { get; set; }
 }

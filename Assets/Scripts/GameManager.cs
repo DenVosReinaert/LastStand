@@ -53,4 +53,9 @@ public class GameManager : MonoBehaviour
 
         }
     }
+
+    public void TriggerShop()
+    {
+
+    }
 }
