@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaveManager : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class WaveManager : MonoBehaviour
     public List<GameObject> spawnTypes;
 
     private GameManager gameManager;
+
+    public TextMeshProUGUI waveText;
 
     [Space]
     [HideInInspector]
@@ -29,6 +33,8 @@ public class WaveManager : MonoBehaviour
 
     void Update()
     {
+        waveText.text = "Wave " + waveNumber;
+
         if (waveFinished)
             waveOnGoing = false;
 
@@ -61,6 +67,8 @@ public class WaveManager : MonoBehaviour
 
     public void SetSpawnCounts()
     {
+        waveNumber++;
+
         spwnCntHvy = (int)(1 * spwnMltHvy * waveNumber);
         spwnCntBrt = (int)(1 * spwnMltBrt * waveNumber);
         spwnCntGrnt = (int)(1 * spwnMltGrnt * waveNumber) + 1;
