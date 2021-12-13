@@ -20,7 +20,7 @@ public class WaveManager : MonoBehaviour
     [HideInInspector]
     public int spwnCntHvy, spwnCntBrt, spwnCntSpd, spwnCntGrnt, spwnCntBss;
 
-    public int totalSpawnCount;
+    public int totalSpawnCount, rnd;
 
     [Space]
     [Header("Spawn Multipliers")]
@@ -80,7 +80,7 @@ public class WaveManager : MonoBehaviour
     public void SpawnNextEnemy()
     {
 
-        int rnd = (int)Random.Range(0f, 4f);
+        rnd = Mathf.Clamp((int)Random.Range(0f, 5f), 0, 3);
 
         if (rnd == 0 && spwnCntHvy > 0)
         {
