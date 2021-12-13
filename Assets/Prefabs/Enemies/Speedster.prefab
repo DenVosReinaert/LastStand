@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4037031591133355832}
   - component: {fileID: 4037031591133355833}
   - component: {fileID: 4037031591133355834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Speedster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4037031591133355835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -73,6 +73,7 @@ MonoBehaviour:
   target_: {fileID: 0}
   health_: 1
   damage_: 1
+  waveManager_: {fileID: 0}
 --- !u!1 &4037031591369344195
 GameObject:
   m_ObjectHideFlags: 0
@@ -85,7 +86,7 @@ GameObject:
   - component: {fileID: 4037031591369344193}
   - component: {fileID: 4037031591369344194}
   - component: {fileID: 6550899943285413069}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpeedsterSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,8 +146,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2053619919
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7830489767127823192, guid: a31fafae7aede63498359d100755cecb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -22,7 +22,12 @@ public class Heavy : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
     public int damage_;
     public WaveManager waveManager { get; set; }
     public WaveManager waveManager_;
+    void Awake()
+    {
+        target_ = GameObject.Find("Player").transform;
+        waveManager_ = GameObject.Find("GameManager").transform.Find("WaveManager").GetComponent<WaveManager>();
 
+    }
     void Update()
     {
         SetContractFields();

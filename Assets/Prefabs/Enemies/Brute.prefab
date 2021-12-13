@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 731666755068605276}
   - component: {fileID: 731666755068605279}
   - component: {fileID: 731666755068605278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brute
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731666755068605273}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -73,6 +73,7 @@ MonoBehaviour:
   target_: {fileID: 0}
   health_: 3
   damage_: 2
+  waveManager_: {fileID: 0}
 --- !u!1 &731666757107476834
 GameObject:
   m_ObjectHideFlags: 0
@@ -85,7 +86,7 @@ GameObject:
   - component: {fileID: 731666757107476832}
   - component: {fileID: 731666757107476835}
   - component: {fileID: 1556930413003462903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BruteSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,8 +146,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2053619919
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -7725660934513520911, guid: 5f721692a1eff024f9326c5b8fdbd6d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2910338911389579772}
   - component: {fileID: 2910338911389579773}
   - component: {fileID: 3873510526983979535}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HeavySprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2053619919
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -278934193137409863, guid: b16641a156cdde048b023d9465e269be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 2910338911400059952}
   - component: {fileID: 2910338911400059953}
   - component: {fileID: 2910338911400059958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Heavy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2910338911400059959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.75, y: 2.75, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -205,3 +205,4 @@ MonoBehaviour:
   target_: {fileID: 0}
   health_: 5
   damage_: 2
+  waveManager_: {fileID: 0}

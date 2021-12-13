@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1424318701472670910}
   - component: {fileID: 1424318701472670909}
   - component: {fileID: 1424318701472670908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grunt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424318701472670907}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -73,6 +73,7 @@ MonoBehaviour:
   target_: {fileID: 0}
   health_: 2
   damage_: 1
+  waveManager_: {fileID: 0}
 --- !u!1 &1424318701638169436
 GameObject:
   m_ObjectHideFlags: 0
@@ -85,7 +86,7 @@ GameObject:
   - component: {fileID: 1424318701638169438}
   - component: {fileID: 1424318701638169437}
   - component: {fileID: 6771292479525225279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GruntSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,8 +146,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 898524655
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -8094314796857564774, guid: 0583b4c0963c1944c99c8f3287fbec7a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

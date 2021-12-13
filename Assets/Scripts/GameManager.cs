@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     public Rigidbody2D playerRb;
 
+    public WaveManager waveManager;
+
     private string dirTrigger;
     void Start()
     {
@@ -52,6 +54,11 @@ public class GameManager : MonoBehaviour
                 break;
 
         }
+    }
+
+    public void StartNewWave()
+    {
+        waveManager.StartWave();
     }
 
     public void TriggerShop()

@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class WaveManager : MonoBehaviour
 {
@@ -33,7 +32,7 @@ public class WaveManager : MonoBehaviour
 
     void Update()
     {
-        waveText.text = "Wave " + waveNumber;
+        waveText.text = "Wave " + (waveNumber + 1);
 
         if (waveFinished)
             waveOnGoing = false;
@@ -55,7 +54,7 @@ public class WaveManager : MonoBehaviour
         if (waveOnGoing && totalSpawnCount > 0 && !waveFinished)
         {
 
-            if (timePassed >= spawnInterval)
+            if (timePassed >= spawnInterval * 60f)
             {
                 SpawnNextEnemy();
             }
@@ -80,12 +79,12 @@ public class WaveManager : MonoBehaviour
 
     public void SpawnNextEnemy()
     {
+
         int rnd = (int)Random.Range(0f, 4f);
 
-    PersistLoop:
         if (rnd == 0 && spwnCntHvy > 0)
         {
-            Instantiate(spawnTypes[0], spawnLocations[(int)Random.Range(0, 3)]);
+            Instantiate(spawnTypes[0], spawnLocations[(int)Random.Range(0, 4)]);
             spwnCntHvy--;
 
         }
@@ -94,18 +93,21 @@ public class WaveManager : MonoBehaviour
         {
             Instantiate(spawnTypes[1], spawnLocations[(int)Random.Range(0, 3)]);
             spwnCntBrt--;
+
         }
         else
         if (rnd == 2 && spwnCntGrnt > 0)
         {
             Instantiate(spawnTypes[2], spawnLocations[(int)Random.Range(0, 3)]);
             spwnCntGrnt--;
+
         }
         else
         if (rnd == 3 && spwnCntSpd > 0)
         {
             Instantiate(spawnTypes[3], spawnLocations[(int)Random.Range(0, 3)]);
             spwnCntSpd--;
+
         }
         else
         if (rnd == 4 && spwnCntBss > 0)
@@ -113,8 +115,7 @@ public class WaveManager : MonoBehaviour
             Instantiate(spawnTypes[4], spawnLocations[(int)Random.Range(0, 3)]);
             spwnCntBss--;
         }
-        else
-            goto PersistLoop;
+
 
         timePassed = 0f;
         spawnInterval = Random.Range(spawnIntervalMin, spawnIntervalMax);
@@ -127,5 +128,13 @@ public class WaveManager : MonoBehaviour
 
         waveFinished = true;
         gameManager.lvlNextArrows.SetActive(true);
+    }
+
+    public void StartWave()
+    {
+        SetSpawnCounts();
+
+        waveFinished = false;
+        waveOnGoing = true;
     }
 }
