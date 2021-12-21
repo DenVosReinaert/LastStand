@@ -22,10 +22,15 @@ public class Grunt : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
     public int damage_;
     public WaveManager waveManager { get; set; }
     public WaveManager waveManager_;
+
+    public GameManager gameManager;
+    public int scoreValue;
+
     void Awake()
     {
         target_ = GameObject.Find("Player").transform;
         waveManager_ = GameObject.Find("GameManager").transform.Find("WaveManager").GetComponent<WaveManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
 
     }
     void Update()
@@ -36,7 +41,7 @@ public class Grunt : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
         PositionAnimation();
 
         if (health <= 0)
-            Die();
+            Kill();
     }
 
     public void PositionAnimation()
@@ -67,6 +72,11 @@ public class Grunt : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
         waveManager.totalSpawnCount--;
 
         Destroy(this.gameObject);
+    }
+    public void Kill()
+    {
+        gameManager.UpdateScore(scoreValue);
+        Die();
     }
 
     public void Damage(int incomingDamage)

@@ -74,6 +74,8 @@ MonoBehaviour:
   health_: 1
   damage_: 1
   waveManager_: {fileID: 0}
+  gameManager: {fileID: 0}
+  scoreValue: 2
 --- !u!1 &4037031591369344195
 GameObject:
   m_ObjectHideFlags: 0

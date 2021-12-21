@@ -53,6 +53,8 @@ MonoBehaviour:
   health_: 10
   damage_: 3
   waveManager_: {fileID: 0}
+  gameManager: {fileID: 0}
+  scoreValue: 100
 --- !u!50 &8181967397599388377
 Rigidbody2D:
   serializedVersion: 4

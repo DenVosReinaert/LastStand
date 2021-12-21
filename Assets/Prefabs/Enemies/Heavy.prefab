@@ -206,3 +206,5 @@ MonoBehaviour:
   health_: 5
   damage_: 2
   waveManager_: {fileID: 0}
+  gameManager: {fileID: 0}
+  scoreValue: 10

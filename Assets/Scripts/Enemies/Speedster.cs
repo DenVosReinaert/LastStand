@@ -22,10 +22,15 @@ public class Speedster : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillabl
     public int damage_;
     public WaveManager waveManager { get; set; }
     public WaveManager waveManager_;
+
+    public GameManager gameManager;
+    public int scoreValue;
+
     void Awake()
     {
         target_ = GameObject.Find("Player").transform;
         waveManager_ = GameObject.Find("GameManager").transform.Find("WaveManager").GetComponent<WaveManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
 
     }
     void Update()
@@ -36,7 +41,7 @@ public class Speedster : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillabl
         PositionAnimation();
 
         if (health <= 0)
-            Die();
+            Kill();
     }
 
     public void PositionAnimation()
@@ -67,6 +72,11 @@ public class Speedster : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillabl
         waveManager.totalSpawnCount--;
 
         Destroy(this.gameObject);
+    }
+    public void Kill()
+    {
+        gameManager.UpdateScore(scoreValue);
+        Die();
     }
 
     public void Damage(int incomingDamage)

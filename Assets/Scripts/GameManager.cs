@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -12,15 +13,24 @@ public class GameManager : MonoBehaviour
 
     public WaveManager waveManager;
 
+    public double score;
+    public int scoreDefault;
+    public float scoreMult, scoreMultIncrease;
+    public float scoreMultDefault;
+
+    public TextMeshProUGUI scoreText, scoreMultText;
+
     private string dirTrigger;
     void Start()
     {
-        
+        score = scoreDefault;
+        ResetScoreMult();
     }
 
     void Update()
     {
-        
+        scoreText.text = "Score: " + score;
+        scoreMultText.text = "x" + scoreMult;
     }
 
     public void NextLevel(string directionTrigger)
@@ -31,6 +41,21 @@ public class GameManager : MonoBehaviour
         gridAnim.SetTrigger("Next Level");
 
         lvlNextArrows.SetActive(false);
+    }
+
+    public void UpdateScore(int incomingScore)
+    {
+        score += incomingScore * scoreMult;
+    }
+
+    public void UpdateScoreMult()
+    {
+        scoreMult += scoreMultIncrease;
+    }
+
+    public void ResetScoreMult()
+    {
+        scoreMult = scoreMultDefault;
     }
 
     public void SetPlayerPos()
