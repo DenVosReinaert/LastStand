@@ -20,7 +20,19 @@ public class Heavy : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
 
     public int damage { get; set; }
     public int damage_;
+    public WaveManager waveManager { get; set; }
+    public WaveManager waveManager_;
 
+    public GameManager gameManager;
+    public int scoreValue;
+
+    void Awake()
+    {
+        target_ = GameObject.Find("Player").transform;
+        waveManager_ = GameObject.Find("GameManager").transform.Find("WaveManager").GetComponent<WaveManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+    }
     void Update()
     {
         SetContractFields();
@@ -29,7 +41,7 @@ public class Heavy : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
         PositionAnimation();
 
         if (health <= 0)
-            Die();
+            Kill();
     }
 
     public void PositionAnimation()
@@ -51,11 +63,20 @@ public class Heavy : MonoBehaviour, IDirectioning, IEnemy, IMobile, IKillable
         speed = speed_;
         health = health_;
         damage = damage_;
+        waveManager = waveManager_;
+
     }
 
     public void Die()
     {
-        this.gameObject.SetActive(false);
+        waveManager.totalSpawnCount--;
+
+        Destroy(this.gameObject);
+    }
+    public void Kill()
+    {
+        gameManager.UpdateScore(scoreValue);
+        Die();
     }
 
     public void Damage(int incomingDamage)

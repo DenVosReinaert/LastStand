@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8181967397599388376}
   - component: {fileID: 8181967397599388382}
   - component: {fileID: 8181967397599388377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8181967397599388379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52,6 +52,9 @@ MonoBehaviour:
   target_: {fileID: 0}
   health_: 10
   damage_: 3
+  waveManager_: {fileID: 0}
+  gameManager: {fileID: 0}
+  scoreValue: 100
 --- !u!50 &8181967397599388377
 Rigidbody2D:
   serializedVersion: 4
@@ -85,7 +88,7 @@ GameObject:
   - component: {fileID: 8181967398077459493}
   - component: {fileID: 8181967398077459492}
   - component: {fileID: 6175185999522292460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BossSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,8 +148,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2053619919
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 4090440680900341585, guid: 905e7b9af6eb7114d8db84af1038b564, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
