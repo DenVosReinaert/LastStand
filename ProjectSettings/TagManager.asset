@@ -53,3 +53,6 @@ TagManager:
   - name: Health and Shields
     uniqueID: 1338599605
     locked: 0
+  - name: UI
+    uniqueID: 1376871915
+    locked: 0
